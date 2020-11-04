@@ -13,6 +13,8 @@ function isTouching(a, b) {
 const avatar = document.querySelector('#player');
 const coin = document.querySelector('#coin');
 
+// Can be refactored!
+
 window.addEventListener('keyup', function(e) {
 	if(e.key === 'ArrowDown' || e.key === 'Down'){
 	const currTop = extractPos(avatar.style.top);
